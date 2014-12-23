@@ -1,0 +1,13 @@
+{
+  "name": "quickLaunch",
+  "version": "0.0.0",
+  "description": "A quick launch project with SASS and Server",
+  "main": "gruntfile.js",
+  "author": "Luke Peary",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browser-sync": "^1.5.3",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
