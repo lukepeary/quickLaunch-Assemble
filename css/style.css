@@ -4,8 +4,22 @@
 /* ==========================================================================
    Base Styles
    ========================================================================== */
-body {
-  background-color: green; }
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+.container {
+  display: table;
+  height: 100%; }
+  .container .centered {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; }
+    .container .centered ul {
+      list-style: none; }
 
 /* ==========================================================================
    Type Styles

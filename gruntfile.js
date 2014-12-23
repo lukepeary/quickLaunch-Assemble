@@ -11,8 +11,7 @@ module.exports = function(grunt) {
     browserSync: {
         bsFiles: {
             src : [
-              'css/*.css',
-              '*.html'
+              'css/*.css'
           ]
         },
         options: {
@@ -26,13 +25,6 @@ module.exports = function(grunt) {
       css: {
         files: '**/*.scss',
         tasks: ['sass'],
-        options: {
-          spawn: false
-        }
-      },
-      html: {
-        files: '*.html',
-        tasks: ['html'],
         options: {
           spawn: false
         }

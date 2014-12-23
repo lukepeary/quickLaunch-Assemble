@@ -2,7 +2,30 @@
    Base Styles
    ========================================================================== */
 
-
-body {
-	background-color: green;
+* {
+	margin: 0;
+	padding: 0;
 }
+
+
+// Remove these centering styles and get started
+
+html, body {
+	height: 100%;
+}
+
+.container {
+	display: table;
+	height: 100%;
+	.centered {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		ul {
+			list-style: none;
+		}
+	}
+}
+
+
+
