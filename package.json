@@ -5,9 +5,13 @@
   "main": "gruntfile.js",
   "author": "Luke Peary",
   "devDependencies": {
+    "assemble": "^0.4.42",
     "grunt": "^0.4.5",
     "grunt-browser-sync": "^1.5.3",
+    "grunt-contrib-connect": "^0.9.0",
+    "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-sass": "^0.8.1",
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-newer": "^1.1.0"
   }
 }

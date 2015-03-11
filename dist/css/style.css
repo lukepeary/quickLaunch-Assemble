@@ -1,0 +1,85 @@
+/* ==========================================================================
+   Imports
+   ========================================================================== */
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+@font-face {
+  font-family: 'myriad';
+  src: url("../assets/fonts/myriadpro-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/myriadpro-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/myriadpro-regular.woff2") format("woff2"), url("../assets/fonts/myriadpro-regular.woff") format("woff"), url("../assets/fonts/myriadpro-regular.ttf") format("truetype"), url("../assets/fonts/myriadpro-regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+.container {
+  display: table;
+  height: 90%;
+  padding-bottom: 70px; }
+  .container .centered {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; }
+    .container .centered ul {
+      list-style: none; }
+
+/* ==========================================================================
+   Type Styles
+   ========================================================================== */
+h1, .h1 {
+  font-family: myriad,serif; }
+
+h2, .h2 {
+  font-family: myriad,serif; }
+
+/* ==========================================================================
+   Header Styles
+   ========================================================================== */
+header {
+  background: #60B99A;
+  text-align: center;
+  color: #fff;
+  padding: 20px 0; }
+
+/* ==========================================================================
+   Footer Styles
+   ========================================================================== */
+footer {
+  background: #60B99A;
+  color: #fff;
+  height: 70px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+/* ==========================================================================
+   Button Styles
+   ========================================================================== */
+.btn-primary {
+  background-color: #F77825;
+  border: 0 none; }
+  .btn-primary:hover {
+    background-color: #f8873e; }
+
+.btn-secondary {
+  background-color: #554236;
+  border: 0 none;
+  color: #fff; }
+  .btn-secondary:hover {
+    color: #fff;
+    background-color: #654e40; }
+
+/*# sourceMappingURL=style.css.map */

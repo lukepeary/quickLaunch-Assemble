@@ -1,0 +1,25 @@
+/* ==========================================================================
+   Button Styles
+   ========================================================================== */
+
+.btn-primary {
+	background-color: $btn-primary;
+	border: 0 none;
+	&:hover {
+		background-color: lighten($btn-primary,5%);
+	}
+}
+
+.btn-secondary {
+	background-color: $btn-secondary;
+	border: 0 none;
+	color: #fff;
+	&:hover {
+		color: #fff;
+		background-color: lighten($btn-secondary,5%);
+	}
+}
+
+
+
+

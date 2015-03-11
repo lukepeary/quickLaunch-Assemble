@@ -1,16 +1,17 @@
-@charset "UTF-8";
-
-
 /* ==========================================================================
-   Imports
+   Variables
    ========================================================================== */
 
+$primary-color: #60B99A;
+$secondary-color: #fff;
 
-// Libs
+$body-font-color: #222;
+
+$header-color: #fff;
+
+$btn-primary: #F77825;
+$btn-secondary: #554236;
 
 
 
 
-// Partials
-@import "partials/base";
-@import "partials/type";
